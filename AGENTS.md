@@ -8,4 +8,4 @@ This repository owns the public Hoenn WireGuard peer inventory and reusable NixO
 - Before committing, run `nix fmt` and `nix flake check`. CI checks Linux and macOS.
 - After module changes, compare evaluated consumer configurations and build affected hosts. Do not deploy or force reconciliation to test.
 - Use scoped Conventional Commits.
-- Peer changes require updating the flake lock in both Hoenn and Sinnoh. Coordinate both sides before removing a peer or rotating a public key.
+- Peer changes require updating the flake lock in both Hoenn and Sinnoh. Nightly Renovate lock updates auto-merge independently. Follow the removal and rotation procedure in README.md before publishing incompatible changes.

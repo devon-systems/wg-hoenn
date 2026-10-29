@@ -1,10 +1,12 @@
-{
-  subnet = "10.254.1.0/24";
+let
   prefixLength = 24;
+  listenPort = 51821;
+in {
+  inherit prefixLength listenPort;
+  subnet = "10.254.1.0/${toString prefixLength}";
   domain = "hoenn";
   hub = "sunnyshore";
-  endpoint = "40.160.83.152:51821";
-  listenPort = 51821;
+  endpoint = "40.160.83.152:${toString listenPort}";
   nodes = {
     sunnyshore = {
       address = "10.254.1.1";
