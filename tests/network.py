@@ -8,7 +8,9 @@ with open(sys.argv[1]) as source:
     network = json.load(source)
 
 subnet = ipaddress.IPv4Network(network["subnet"])
-assert subnet.prefixlen == network["prefixLength"], "subnet prefix differs from prefixLength"
+assert subnet.prefixlen == network["prefixLength"], (
+    "subnet prefix differs from prefixLength"
+)
 assert 1 <= network["listenPort"] <= 65535, "invalid listenPort"
 host, port = network["endpoint"].rsplit(":", 1)
 ipaddress.IPv4Address(host)
