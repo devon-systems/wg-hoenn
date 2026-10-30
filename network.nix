@@ -43,6 +43,11 @@ in {
       publicKey = "sodFLJVrTVsifP5ltziHkQrWDwEj+3Cvj6csZbWtgEE=";
     };
 
+    lavaridge = {
+      address = "10.254.1.10";
+      publicKey = "++8uCYxO+H6bu075TlaTxK2qnu7jvt91DwX4vymLUHs=";
+    };
+
     lilycove = {
       address = "10.254.1.9";
       publicKey = "0FG8r6ua2z+o3etlbtmqql8dOu9T48Bx/PzBmSgv+kA=";
