@@ -8,6 +8,11 @@ in {
   hub = "sunnyshore";
   endpoint = "40.160.83.152:${toString listenPort}";
   nodes = {
+    fallarbor = {
+      address = "10.254.1.11";
+      publicKey = "hlCr60vW1aqMvWygmbjbXzCm1bEiJJ9ITVilD25+p2s=";
+    };
+
     sunnyshore = {
       address = "10.254.1.1";
       publicKey = "vinYIK2laJ19yVMlw6iB5lb9+wY8ZBrM+Y4nrBmMxxQ=";
