@@ -33,11 +33,6 @@ in {
       publicKey = "Grk570okUSWaxah004BUIEbul5IyjDsaoRgYV0fu0ho=";
     };
 
-    pacifidlog = {
-      address = "10.254.1.7";
-      publicKey = "E8FXq8GhLhP83beFTzyN5G37rW5DgM9YcwtnQmaKQHs=";
-    };
-
     petalburg = {
       address = "10.254.1.8";
       publicKey = "sodFLJVrTVsifP5ltziHkQrWDwEj+3Cvj6csZbWtgEE=";
