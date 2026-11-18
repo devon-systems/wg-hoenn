@@ -28,11 +28,6 @@ in {
       publicKey = "ZhpSQzxRmKrp3Tsny9rGP1PCtcP/zghdRoQJBPWPGGQ=";
     };
 
-    sootopolis = {
-      address = "10.254.1.4";
-      publicKey = "ezW8vZQUpvcb2ltr8BOIn+iZ/lXI0mvNLs49ZiaZnCA=";
-    };
-
     verdanturf = {
       address = "10.254.1.5";
       publicKey = "Grk570okUSWaxah004BUIEbul5IyjDsaoRgYV0fu0ho=";
